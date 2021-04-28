@@ -1,0 +1,20 @@
+{
+  "feedmail": {
+    "db": {
+        "url": "mongodb://feedmail-dbb:8HEsGYTAXVBwu2vhlzplaadjPZE1BlSlnRzSlpItm97wYlPYy2eUHKZu2LuA2JEop4UZDqE38fwSYO1zSjT0tg%3D%3D@feedmail-dbb.mongo.cosmos.azure.com:10255/?ssl=true&retrywrites=false&maxIdleTimeMS=120000&appName=@feedmail-dbb@",
+        "name": "dev",
+        "options": {
+            "useUnifiedTopology": true
+        }
+    },
+    "logger": {
+        "level": "debug",
+        "filename": "./backend.log"
+    },
+    "mailgun": {
+      "domain": "sandbox3d12b518cda34bbfa154c78f1cbb643b.mailgun.org",
+      "apiKey": "396fa5b951bfc8673e85327e18dd5d36-71b35d7e-f091fd98"
+    },
+    "port": 8080
+  }
+}
